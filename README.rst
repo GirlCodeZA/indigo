@@ -1,6 +1,8 @@
 Indigo, a cool blue theme for Open edX
 ======================================
 
+> This is a fork by [GirlCode](https://girlcode.co.za/)
+
 Indigo is an elegant, customizable theme for `Open edX <https://open.edx.org>`__.
 
 .. image:: ./screenshots/01-landing-page.png
@@ -17,7 +19,7 @@ Indigo was specially developed to be used with `Tutor <https://docs.overhang.io>
 
 Clone the theme repository::
 
-    git clone https://github.com/overhangio/indigo
+    git clone https://github.com/GirlCodeZA/indigo
 
 Render your theme::
 
@@ -52,7 +54,7 @@ Customization
 Setting custom values
 ~~~~~~~~~~~~~~~~~~~~~
 
-A few settings in the theme can be easily customised: this includes the theme primary color, landing page tagline, footer legal links. Theme settings are defined in the `config.yml <https://github.com/overhangio/indigo/blob/master/config.yml>`__ file at the root of the repository. You can override all or part of those settings by creating you own ``config-custom.yml`` file. Then, render the theme with::
+A few settings in the theme can be easily customised: this includes the theme primary color, landing page tagline, footer legal links. Theme settings are defined in the `config.yml <https://github.com/GirlCodeZA/indigo/blob/master/config.yml>`__ file at the root of the repository. You can override all or part of those settings by creating you own ``config-custom.yml`` file. Then, render the theme with::
 
     tutor config render \
         --extra-config ./indigo/config.yml \
@@ -62,7 +64,7 @@ A few settings in the theme can be easily customised: this includes the theme pr
 Changing the default logo and other images
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The theme images are stored in `indigo/theme/lms/static/images <https://github.com/overhangio/indigo/tree/master/theme/lms/static/images>`__ for the LMS, and in `indigo/theme/cms/static/images <https://github.com/overhangio/indigo/tree/master/theme/cms/static/images>`__ for the CMS. To use custom images in your theme, just replace the files stored in these folders with your own prior to running ``tutor config render``.
+The theme images are stored in `indigo/theme/lms/static/images <https://github.com/GirlCodeZA/indigo/tree/master/theme/lms/static/images>`__ for the LMS, and in `indigo/theme/cms/static/images <https://github.com/GirlCodeZA/indigo/tree/master/theme/cms/static/images>`__ for the CMS. To use custom images in your theme, just replace the files stored in these folders with your own prior to running ``tutor config render``.
 
 Overriding the default "about", "contact", etc. static pages
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -97,4 +99,4 @@ This new template will then be used to render the /donate url.
 License
 -------
 
-This work is licensed under the terms of the `GNU Affero General Public License (AGPL) <https://github.com/overhangio/indigo/blob/master/LICENSE.txt>`_.
+This work is licensed under the terms of the `GNU Affero General Public License (AGPL) <https://github.com/GirlCodeZA/indigo/blob/master/LICENSE.txt>`_.
