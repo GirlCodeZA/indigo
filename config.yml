@@ -10,8 +10,11 @@ INDIGO_FOOTER_NAV_LINKS:
     url: "/about"
   - title: "Contact"
     url: "/contact"
+  - title: "Donate"
+    url: "https://www.givengain.com/c/girlcode/"
 INDIGO_FOOTER_LEGAL_LINKS:
-    - title: "Terms of service"
+    - title: "Terms of service & Honor code"
       url: "/tos"
-    - title: "Indigo theme for Open edX"
-      url: "https://github.com/overhangio/indigo"
+    - title: "Privacy Policy"
+      url: "/privacy"
+    
