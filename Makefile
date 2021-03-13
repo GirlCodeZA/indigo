@@ -3,6 +3,3 @@ render:
 
 watch: render
 	while true; do inotifywait -e modify --recursive config.yml ./theme; $(MAKE) render; done
-
-update: render
-	tutor images build openedx && tutor local start -d

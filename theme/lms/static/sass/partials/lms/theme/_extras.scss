@@ -197,12 +197,10 @@ nav.wrapper-preview-menu {
   .nav-legal ul {
       display: inline-block;
   }
-  footer#footer-openedx .footer-about-openedx {
-      a {
-          float: none;
-      }
-      p {
-          text-align: right;
-      }
+  .nav-social ul {
+    display: inline-block;
+  }
+  .nav-social li {
+    padding-right: 14px;
   }
 }
